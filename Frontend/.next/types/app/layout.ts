@@ -1,4 +1,4 @@
-// File: C:\Users\shmuy\Desktop\Employee Hierarchy Manager\Frontend\app\layout.tsx
+// File: /home/shudev/Desktop/Employee-Hierarchy-Manager/Frontend/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

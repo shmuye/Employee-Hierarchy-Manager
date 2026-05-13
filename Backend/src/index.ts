@@ -26,7 +26,7 @@ if(process.env.NODE_ENV !== 'test') {
     serve(
         {
             fetch: app.fetch,
-            port: Number(process.env.PORT) || 3000
+            port: Number(process.env.PORT) || 5000
         },
         (info) => {
             console.log(`Server running on http://localhost:${info.port}`);
