@@ -43,17 +43,34 @@ The system allows users to:
 
 # Project Structure
 
-```bash
-.
+```
 ├── frontend
+│   ├── app
+│   ├── components
+│   ├── context
+│   ├── lib
+│   ├── types
 │   ├── package.json
 │   └── .env.example
 │
 ├── backend
+│   ├── drizzle
+│   ├── src
+│   │   ├── auth
+│   │   ├── db
+│   │   ├── middleware
+│   │   ├── positions
+│   │   ├── types
+│   │   ├── users
+│   │   ├── utils
+│   │   ├── validations
+│   │   └── index.ts
+│   ├── test
 │   ├── package.json
 │   └── .env.example
 │
 └── README.md
+
 ```
 
 ---
@@ -87,7 +104,7 @@ NEXT_PUBLIC_API_BASE_URL=http://localhost:5000
 
 ```bash
 git clone <your-repository-url>
-cd employee-hierarchy-manager
+cd Employee-Hierarchy-Manager
 ```
 
 ---
@@ -253,7 +270,7 @@ Opens Drizzle Studio.
 - REST API architecture
 - JWT-based authentication
 - Form validation using Zod
-- State management with Redux Toolkit
+- State management with Context API
 - API caching with React Query
 
 

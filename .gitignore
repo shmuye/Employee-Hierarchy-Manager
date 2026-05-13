@@ -29,9 +29,11 @@ frontend/.env.local
 frontend/.env.production
 frontend/.env.development
 
+
 backend/.env
 backend/.env.production
 backend/.env.development
+
 
 # =========================================================
 # IDE & Editor Files
@@ -41,6 +43,9 @@ backend/.env.development
 !.vscode/*.code-snippets
 
 .idea/
+frontend/.idea/
+backend/.idea/
+
 .idea/workspace.xml
 .idea/usage.statistics.xml
 .idea/shelf
@@ -67,11 +72,13 @@ frontend/coverage/
 backend/coverage/
 
 .vitest/
-
+frontend/.idea/
+backend/.idea/
 # =========================================================
 # Next.js
 # =========================================================
 .next/
+frontend/.next/
 out/
 
 frontend/.next/
